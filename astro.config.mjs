@@ -9,17 +9,23 @@ import sitemap from 'astro-sitemap'
 import playformCompress from '@playform/compress'
 import compressor from 'astro-compressor'
 
+import netlify from '@astrojs/netlify'
+
 // https://astro.build/config
 export default defineConfig({
   site: URL,
+
   server: {
     host: true
   },
+
   prefetch: {
     prefetchAll: true,
     defaultStrategy: 'viewport'
   },
+
   compressHTML: false,
+
   integrations: [
     tunnel(),
     icon({
@@ -81,5 +87,8 @@ export default defineConfig({
       SVG: false
     }),
     compressor()
-  ]
+  ],
+
+  output: 'server',
+  adapter: netlify()
 })

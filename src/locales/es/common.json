@@ -1,0 +1,122 @@
+{
+  "title": "Desarrollador Web FullStack Junior - Ainara De Pablo",
+  "description": "",
+  "navbar": [
+    {
+      "label": "Inicio",
+      "href": "#top"
+    },
+    {
+      "label": "Experiencia",
+      "href": "#experiencia-laboral"
+    },
+    {
+      "label": "Proyectos",
+      "href": "#proyectos"
+    },
+    {
+      "label": "Sobre mí",
+      "href": "#sobre-mi"
+    }
+  ],
+  "hero": {
+    "job_availability": "¡Disponibilidad inmediata para trabajar!",
+    "title": "¡Hola soy Ainara De Pablo!",
+    "job_title": "<strong>Desarrolladora Web FullStack</strong>",
+    "description": "",
+    "cta": {
+      "text": "Descarga CV",
+      "url": "/media/AinaraCV.pdf"
+    }
+  },
+  "experience": {
+    "title": "Experiencia laboral",
+    "jobs": {
+      "jobs_title": ["Practicas desarrolladora web"],
+      "jobs_description": [
+        {
+          "title": "Desarrolladora web",
+          "time": ["Abril 2024 - Junio 2024"],
+          "description": "Encargada del mantenimiento de la web de uno de los clientes, así como de la actualización de Prestashop para otro de ellos.",
+          "list": [
+            "Mantenimiento de sitio web con Wordpress",
+            "Trabajo de actualización de Prestashop",
+            "Creación de documentanción funcioanl de formación recibida sobre Prestashop"
+          ]
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "projects": [
+      {
+        "title": "Go Local",
+        "description": "Proyecto final para el grado de DAW (Desarrollo de aplicaciones web). Esta es una aplicación mediante la cual las personas tienen la posibilidad de conectar con guías locales, quienes mostrarán rincones y costumbres propios de los lugareños a personas que busquen viajar de manera más consciente y responsable.",
+        "image": "/src/images/projects/golocal-project.jpg",
+        "techs": ["Java", "Springboot", "Bootstrap", "Angular", "Mysql"],
+        "code1": {
+          "url": "https://github.com/AinaraDP/Golocal_springboot",
+          "text": "Código Backend"
+        },
+        "code2": {
+          "url": "https://github.com/CarolinaBrazalesSempere/go-local",
+          "text": "Código Frontend"
+        }
+      },
+      {
+        "title": "Cajero virtual",
+        "description": "Actividad 2 en DAW, donde se realiza la implementación de un cajero virtual, aplicando el patrón MVC con Spring Boot con capa de persistencia para acceso a los datos con Spring Data JPA.",
+        "image": "/src/images/projects/cajero.png",
+        "techs": ["Java", "Springboot", "HTML", "CSS", "Mysql"],
+        "code1": {
+          "url": "https://github.com/AinaraDP/ADPG_Cajero_AD2",
+          "text": "Código Backend"
+        }
+      },
+      {
+        "title": "Microservicios pedidos",
+        "description": "Actividad 2 en DAW, donde se realiza la implementación de un cajero virtual, aplicando el patrón MVC con Spring Boot con capa de persistencia para acceso a los datos con Spring Data JPA.",
+        "image": "/src/images/projects/postman.png",
+        "techs": ["Java", "Springboot", "Mysql", "postman"],
+        "code1": {
+          "url": "https://github.com/AinaraDP/ADPG_Cajero_AD2",
+          "text": "Código Backend"
+        }
+      }
+    ]
+  },
+  "technologies": {
+    "title": "Tecnologías",
+    "techs": [
+      "Java",
+      "Springboot",
+      "MVC",
+      "JavaScript",
+      "MySQL",
+      "HTML5",
+      "CSS",
+      "GitHub",
+      "Angular",
+      "Postman",
+      "Eclipse",
+      "VSCode"
+    ]
+  },
+
+  "about": {
+    "title": "Sobre mí",
+    "subtitle": "Recien graduada en Desarrollo de aplicaciones web (DAW)",
+    "description": "¡Hola! Soy Ainara, una desarrolladora web apasionada por la programación. Desde que comencé a programar, he descubierto que es más que un trabajo para mí; es un hobby que me llena de satisfacción y me hace perder la noción del tiempo. Aunque tengo una inclinación especial hacia el backend, también disfruto explorando el frontend. Estoy emocionada por la oportunidad de aplicar mis habilidades y seguir aprendiendo en el mundo del desarrollo web."
+  },
+  "contact": {
+    "title": "¿Quieres contactar conmigo?",
+    "subtitle": ""
+  },
+  "footer": {
+    "designed": {
+      "designed_with": "Diseñado con",
+      "designed_by": "por"
+    }
+  }
+}

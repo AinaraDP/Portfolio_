@@ -1,0 +1,105 @@
+{
+  "title": "Junior Web FullStack Developer - Ainara De Pablo",
+  "description": "",
+  "navbar": [
+    {
+      "label": "Home",
+      "href": "#top"
+    },
+    {
+      "label": "Experience",
+      "href": "/en/#work-experience"
+    },
+    {
+      "label": "Projects",
+      "href": "/en/#projects"
+    },
+    {
+      "label": "About me",
+      "href": "/en/#about-me"
+    }
+  ],
+  "hero": {
+    "job_availability": "Available for work!",
+    "title": "Hello I'm Ainara De Pablo!",
+    "job_title": "Junior Web FullStack Developer",
+    "description": "",
+    "cta": {
+      "text": "CV Download",
+      "url": "/media/AinaraCV.pdf"
+    }
+  },
+  "experience": {
+    "title": "Work Experience",
+    "jobs": {
+      "jobs_title": ["Web Developer Intern"],
+      "jobs_description": [
+        {
+          "title": "Web Developer",
+          "time": ["April 2024 - June 2024"],
+          "description": "Responsible for maintaining the website of one of the clients, as well as updating PrestaShop for another.",
+          "list": [
+            "Website maintenance with WordPress",
+            "PrestaShop update work",
+            "Creation of functional documentation for training received on PrestaShop"
+          ]
+        }
+      ]
+    }
+  },
+
+  "projects": {
+    "title": "Projects",
+    "projects": [
+      {
+        "title": "Go Local",
+        "description": "Final project for the DAW degree (Web Application Development). This is an application through which people can connect with local guides, who will show corners and customs unique to locals for those looking to travel in a more conscious and responsible way.",
+        "image": "/src/images/projects/golocal-project.jpg",
+        "techs": ["Java", "SpringBoot", "Bootstrap", "Angular", "MySQL"],
+        "code1": {
+          "url": "https://github.com/AinaraDP/Golocal_springboot",
+          "text": "Backend code"
+        },
+        "code2": {
+          "url": "https://github.com/CarolinaBrazalesSempere/go-local",
+          "text": "Frontend code"
+        }
+      },
+      {
+        "title": "Virtual ATM",
+        "description": "Activity 2 in DAW, where a virtual ATM is implemented, applying the MVC pattern with Spring Boot and a persistence layer for data access with Spring Data JPA.",
+        "image": "/src/images/projects/cajero.png",
+        "techs": ["Java", "SpringBoot", "HTML", "CSS", "MySQL"],
+        "code1": {
+          "url": "https://github.com/AinaraDP/Golocal_springboot",
+          "text": "Backend code"
+        }
+      },
+      {
+        "title": "Order Microservices",
+        "description": "Activity 2 in DAW, where a virtual ATM is implemented, applying the MVC pattern with Spring Boot and a persistence layer for data access with Spring Data JPA.",
+        "image": "/src/images/projects/postman.png",
+        "techs": ["Java", "SpringBoot", "MySQL", "Postman"],
+        "code1": {
+          "url": "https://github.com/AinaraDP/Golocal_springboot",
+          "text": "Backend code"
+        }
+      }
+    ]
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Recent graduate in Web Application Development (DAW)",
+    "description": "Hello! I'm Ainara, a web developer passionate about programming. Since I started coding, I've discovered that it's more than just a job for me; it's a hobby that brings me great satisfaction and makes me lose track of time. While I have a special inclination towards backend development, I also enjoy exploring the frontend. I'm excited about the opportunity to apply my skills and continue learning in the world of web development."
+  },
+  "contact": {
+    "title": "Want to get in touch?",
+    "subtitle": ""
+  },
+  "footer": {
+    "designed": {
+      "designed_with": "Designed with",
+      "designed_by": "by"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+---
+interface Props {
+  href: string
+  class?: string
+  target?: string // Para enlaces externos
+  rel?: string // Para enlaces externos
+}
+
+const { className, href, target, rel } = Astro.props
+---
+
+<a
+  class={`button ${className}`}
+  href={href}
+  download={href}
+  target={target}
+  rel={rel}
+>
+  <slot />
+</a>
+
+<style>
+  a {
+    margin-top: 5%;
+    display: inline-flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 40px;
+    font-weight: 500;
+    color: black; /* Color del texto por defecto (negro) */
+    background-color: #fff; /* Fondo blanco por defecto */
+    text-decoration: none;
+    border: 1px solid var(--text-color); /* Usa el color de texto como borde */
+    border-radius: 1000px;
+    transition:
+      background-color 0.3s,
+      color 0.3s; /* Transición suave */
+  }
+
+  a:hover {
+    background-color: #000; /* Fondo negro al hacer hover */
+    color: white; /* Color de texto blanco al hacer hover */
+  }
+
+  a.filled {
+    background-color: var(--text-color); /* Color de fondo para botón lleno */
+    color: black; /* Color de texto para botón lleno (negro) */
+    transition:
+      background-color 0.3s,
+      color 0.3s; /* Transición suave */
+  }
+
+  a.filled:hover {
+    background-color: var(
+      --bg-secondary-color
+    ); /* Color de fondo al hacer hover para el botón lleno */
+    color: white; /* Color de texto al hacer hover para el botón lleno (blanco) */
+  }
+</style>

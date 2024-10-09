@@ -19,17 +19,8 @@ const normalizeTitle = title
   <section class="jobs">
     <div class="job-title">
       {
-        jobsTitle.map((title, index) => (
-          <button
-            class:list={[
-              'headline-3 tabbutton',
-              {
-                active: index === 0
-              }
-            ]}
-          >
-            {title}
-          </button>
+        jobsTitle.map((title) => (
+          <button class:list={['headline-3 tabbutton']}>{title}</button>
         ))
       }
     </div>
@@ -39,7 +30,7 @@ const normalizeTitle = title
           <div class:list={['description tabcontent', { active: index === 0 }]}>
             <h3>{title}</h3>
             <div class="job-time">
-              {time.map((time, index) => (
+              {time.map((time) => (
                 <>
                   <time class="headline-4" datetime={time}>
                     {time}

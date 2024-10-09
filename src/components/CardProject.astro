@@ -45,7 +45,7 @@ if (!images[src])
         techs.map((tech) => {
           const techLower = tech.toLowerCase().replaceAll(' ', '-')
           return (
-            <span class={`badge-tech ${techLower}`} key={techLower}>
+            <span class={`badge-tech ${techLower}`}>
               <Icon name={`techs/${techLower}`} size={24} />
               <span>{tech}</span>
             </span>

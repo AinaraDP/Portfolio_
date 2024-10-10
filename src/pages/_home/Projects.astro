@@ -20,7 +20,7 @@ const { title, projects } = t('projects', {
         description={description}
         techs={techs}
         code1={code1}
-        code2={code2}
+        {...(code2 ? { code2 } : {})}
       />
     ))
   }

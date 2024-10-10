@@ -73,10 +73,7 @@
           "url": "https://github.com/AinaraDP/ADPG_Cajero_AD2",
           "text": "Código Backend"
         },
-        "code2": {
-          "url": "#",
-          "text": ""
-        }
+        "code2": null
       },
       {
         "title": "Microservicios pedidos",
@@ -87,10 +84,7 @@
           "url": "https://github.com/AinaraDP/ADPG_Cajero_AD2",
           "text": "Código Backend"
         },
-        "code2": {
-          "url": "#",
-          "text": ""
-        }
+        "code2": null
       }
     ]
   },

@@ -32,7 +32,7 @@
   "experience": {
     "title": "Experiencia laboral",
     "jobs": {
-      "jobs_title": ["Practicas desarrolladora web"],
+      "jobs_title": ["Dominion global", "Eroski", "ELTDAN"],
       "jobs_description": [
         {
           "title": "Desarrolladora web",
@@ -42,6 +42,27 @@
             "Mantenimiento de sitio web con Wordpress",
             "Trabajo de actualización de Prestashop",
             "Creación de documentanción funcioanl de formación recibida sobre Prestashop"
+          ]
+        },
+        {
+          "title": "Reponedora de supermercado",
+          "time": ["Enero 2019 - Febrero 2024"],
+          "description": "Me encargaba de mantener un inventario eficiente y organizado en los distintos pasillos. Proporcionaba atención y asistencia a los clientes, ofreciéndoles información sobre productos y su ubicación en la tienda. Además, participé en la gestión de pedidos en línea, incluyendo la preparación, embalaje y entrega puntual de los productos.",
+          "list": [
+            "Mantenimiento eficiente del inventario",
+            "Atención al cliente",
+            "Gestión de pedidos"
+          ]
+        },
+
+        {
+          "title": "Directora de fotografía",
+          "time": ["Enero 2016 - Febrero 2017"],
+          "description": "Fui responsable de la dirección y supervisión de la cinematografía, iluminación y composición visual. Planifiqué y ejecuté la iluminación de las escenas para crear la atmósfera adecuada, colaborando estrechamente con el director y el equipo de producción para desarrollar y mantener la estética visual de la película a lo largo de gran parte de la filmación.",
+          "list": [
+            "Responsable de dirección y supervisión",
+            "Planificación y ejecución",
+            "Trabajo en equipo"
           ]
         }
       ]

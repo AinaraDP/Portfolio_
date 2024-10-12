@@ -32,16 +32,36 @@
   "experience": {
     "title": "Work Experience",
     "jobs": {
-      "jobs_title": ["Web Developer Intern"],
+      "jobs_title": ["Dominion Global", "Eroski", "ELTDAN"],
       "jobs_description": [
         {
           "title": "Web Developer",
           "time": ["April 2024 - June 2024"],
-          "description": "Responsible for maintaining the website of one of the clients, as well as updating PrestaShop for another.",
+          "description": "In charge of website maintenance for one of the clients, as well as updating Prestashop for another.",
           "list": [
             "Website maintenance with WordPress",
-            "PrestaShop update work",
-            "Creation of functional documentation for training received on PrestaShop"
+            "Prestashop update work",
+            "Creation of functional documentation for training received on Prestashop"
+          ]
+        },
+        {
+          "title": "Supermarket Stock Clerk",
+          "time": ["January 2019 - February 2024"],
+          "description": "Responsible for maintaining an efficient and organized inventory across different aisles. Provided customer service and assistance, offering information about products and their location in the store. Also participated in online order management, including preparation, packaging, and timely delivery of products.",
+          "list": [
+            "Efficient inventory maintenance",
+            "Customer service",
+            "Order management"
+          ]
+        },
+        {
+          "title": "Director of Photography",
+          "time": ["January 2016 - February 2017"],
+          "description": "I was responsible for the direction and supervision of cinematography, lighting, and visual composition. I planned and executed scene lighting to create the appropriate atmosphere, collaborating closely with the director and the production team to develop and maintain the film’s visual aesthetics throughout much of the shoot.",
+          "list": [
+            "Responsible for direction and supervision",
+            "Planning and execution",
+            "Teamwork"
           ]
         }
       ]

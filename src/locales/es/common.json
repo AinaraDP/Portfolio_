@@ -98,7 +98,7 @@
       },
       {
         "title": "Microservicios pedidos",
-        "description": "Actividad 2 en DAW, donde se realiza la implementación de un cajero virtual, aplicando el patrón MVC con Spring Boot con capa de persistencia para acceso a los datos con Spring Data JPA.",
+        "description": "Este proyecto consiste en el desarrollo de un API RESTful utilizando el framework Spring Boot, junto con Spring Data JPA para la gestión de persistencia de datos y una base de datos MySQL 8 para almacenar la información. El objetivo es ofrecer una serie de servicios web que permitan interactuar con datos de manera eficiente y probada mediante Postman, siguiendo los principios del modelo REST.",
         "image": "/src/images/projects/postman.png",
         "techs": ["Java", "Springboot", "Mysql", "postman"],
         "code1": {

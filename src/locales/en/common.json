@@ -97,7 +97,7 @@
       },
       {
         "title": "Order Microservices",
-        "description": "Activity 2 in DAW, where a virtual ATM is implemented, applying the MVC pattern with Spring Boot and a persistence layer for data access with Spring Data JPA.",
+        "description": "This project involves the development of a RESTful API using the Spring Boot framework, along with Spring Data JPA for data persistence management and a MySQL 8 database to store the information. The goal is to provide a series of web services that enable efficient data interaction, tested with Postman, while adhering to the principles of the REST model.",
         "image": "/src/images/projects/postman.png",
         "techs": ["Java", "SpringBoot", "MySQL", "Postman"],
         "code1": {
